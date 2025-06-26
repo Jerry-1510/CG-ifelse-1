@@ -1,0 +1,22 @@
+p {
+  animation: doiMau 5s infinite;
+  font-size: 20px;
+}
+
+@keyframes doiMau {
+  0% {
+    color: red;
+  }
+  25% {
+    color: orange;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  100% {
+    color: violet;
+  }
+}
